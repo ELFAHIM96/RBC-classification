@@ -7,7 +7,7 @@ Classification of the Red Blood cell using Deep Learning Method
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[7]:
+
 import numpy as np
 import seaborn as sns
 import pandas as pd
@@ -59,6 +59,7 @@ print(X_test.shape)
 print(y_test.shape)
 #Creating a sequential model
 dummy_y = np_utils.to_categorical(Y)
+
 def baseline_model():
     # create model
     model = Sequential()
